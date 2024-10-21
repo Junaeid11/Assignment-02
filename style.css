@@ -174,14 +174,46 @@ background: rgba(255, 255, 255, 0.1);
     
 }
 .chart{
-    margin: 60px 0px;
+    margin: 60px 2px;
     padding: 40px;
     background: rgb(34, 34, 34);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-radius: 25px;
  
     
+}
+.workout{
+    display: flex;
+    padding: 25px;
+    background: rgb(28, 27, 27);
+    margin: 25px;
+
+}
+.builder img{
+width: 80%;
+padding: 30px 20px;
+margin-top: 50px;
+}
+.gear{
+    align-items: center;
+    margin-top: 50px;
+}
+.workout .btn1{
+    margin-left: 50px;
+    margin-top: 20px;
+}
+.workout h1{
+    font-size: 3.5rem;
+}
+.workout p{
+    align-items: center;
+    font-size: 20px;
+    justify-content: center;
+}
+.workout p img{
+   width: 18px; 
 }
  td, th{
     border: .5px solid grey;
@@ -332,7 +364,7 @@ footer{
     }
     .chart{
         display: grid;
-        padding: 0 15px;
+        padding: 25px 15px;
     }
    
     .cardSec{
@@ -377,21 +409,50 @@ footer{
 }
 input {
     display: flex;
-    width: 150px;
+    width: 15%;
 }
 select {
-    width: 180px;
+    width: 20%;
     ;
 }
 .active{
-    width: 50%;
+    width: 35%;
 }
 
 .inp{
     display: flex;
 }
+.workout{
+    display: grid;
+    margin: 30px 10px;
+    border-radius: 25px;
+}
+.workout img{
+    width: 100%;
+    margin: 5px;
+    padding: 10px;
+}
+.gear{
+    margin: 10px;
+}
+.gear h1{
+    font-size: 3rem;
+    padding: 0;
+    text-align: center;
+}
+.gear p{
+    align-items: center;
+    font-size: 25px;
+    justify-content: center;
+}
+.gear p img{
+    margin-bottom: -10px;
+    width: 10%;
+   
 
-
-
+}
+.workout .btn1{
+    margin: 0;
+}
 
 }
