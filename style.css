@@ -187,6 +187,11 @@ background: rgba(255, 255, 255, 0.1);
     border: .5px solid grey;
     padding: 15px;
     text-align: center;
+    
+}
+tr td{
+    color: grey;
+
 }
 .calculator{
 width: 700px;
@@ -200,11 +205,15 @@ input{
 
 }
 select{
-    padding: 5px;
+    padding: 10px;
     margin: 2px;
-    width: 280px;
+    width: 45%;
     
 
+}
+.active{
+    margin-left: 30px;
+    width: 83%;
 }
 .trainer{
     border-radius: 25px;
@@ -244,7 +253,7 @@ footer{
     margin: 0;
     align-items: center;
 }  
-.star a , .get a {
+.star a , .get a ,.fit p{
     color: grey;
     padding: 15px;
 }
@@ -325,13 +334,7 @@ footer{
         display: grid;
         padding: 0 15px;
     }
-    .calculator{
-        width: 250px;
-    }
-    .calculator .btn1{
-        text-align: center;
-    }
-    
+   
     .cardSec{
         display: grid;
     }
@@ -372,8 +375,21 @@ footer{
     padding: 15px;
     border-radius: 25px;
 }
+input {
+    display: flex;
+    width: 150px;
+}
+select {
+    width: 180px;
+    ;
+}
+.active{
+    width: 50%;
+}
 
-
+.inp{
+    display: flex;
+}
 
 
 
