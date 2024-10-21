@@ -15,6 +15,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 4px;
+    
 }
 .nav a, .btn1 a, .star a, .get a{
     text-decoration: none;
@@ -47,19 +48,26 @@ font-family: "Allura";
 font-size: 85px;
 
 }
-.ni{
+ .body{
     background:  rgba(59, 55, 55, 0.331);
-    height: 715px;
-left: 0;
-top: 0;
+    padding: 15px;
+   
+    
 }
 .body{
+    margin: 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .heal h1{
     font-size: 70px;
+}
+.heal p{
+    
+    font-size: 15px;
+    color: grey;
+    
 }
 .btn1{
     box-sizing: border-box;
@@ -80,6 +88,13 @@ background-color: rgb(230, 83, 60);
 .btn2:hover{
     cursor: pointer;
 }
+.ball{
+    margin-top: 25px;
+    height: 40px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 72, 0);
+}
 .box1{
     box-sizing: border-box;
     border: 1px solid rgba(255, 255, 255, 0.1);
@@ -92,6 +107,7 @@ background-color: rgb(230, 83, 60);
     height: 96px;
     left: 684px;
     top: 556px;
+    display: flex;
 }
 .box2{
 position: absolute;
@@ -138,10 +154,7 @@ background: rgba(255, 255, 255, 0.1);
     padding: 25px;
     border-radius: 45px;
 }
-.trainy{
- padding:10px 0px;
- 
-}
+
 .train{
     background-size: cover;
     width: 330px;
@@ -257,9 +270,11 @@ footer{
         display: block;
         
     }
-    .nil{
-        margin-top: 700px;
+    .nav{
+        background:  rgba(59, 55, 55, 0.331);
+   
     }
+   
     .box1{
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.1);
@@ -271,14 +286,14 @@ footer{
         width: 206px;
         height: 96px;
         left: 4px;
-        top: 1000px;
+        top: 800px;
     }
     .box2{
         position: absolute;
-        width: 193px;
+        width: 200px;
         height: 98px;
-        left: 200px;
-        top: 800px;
+        left: 250px;
+        top: 600px;
         box-sizing: border-box;
         border: 1px solid rgba(255, 255, 255, 0.1);
         border-radius: 12px;
@@ -288,16 +303,23 @@ footer{
 
     .body{
         display: grid;
-        height: 100px;
         
+        
+    }
+    .body h1{
+        font-size: 3rem;
+    }
+    .body .heal{
+        padding: 0;
     }
     .trainee{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        padding: 5px;
-        width: 110%;
-        margin-left: -18px;
-        margin-bottom: 20px;
+        width: 100%;
+        padding: 15px;
+        margin-left: -10px;
+        align-items: center;
+        
     }
     .chart{
         display: grid;
@@ -309,9 +331,7 @@ footer{
     .calculator .btn1{
         text-align: center;
     }
-    .imgi{
-        height: 50%;
-    }
+    
     .cardSec{
         display: grid;
     }
@@ -319,7 +339,8 @@ footer{
         display: grid;
     }
     .img1{width: 100%;
-    padding: 0;
+        height: 100%;
+          padding: 0;
     }
     .exer{
         display: grid;
@@ -346,6 +367,10 @@ footer{
     display: grid;
     text-align: left;
     padding-left: 0;
+}
+.run{
+    padding: 15px;
+    border-radius: 25px;
 }
 
 
