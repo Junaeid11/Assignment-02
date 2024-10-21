@@ -1,0 +1,331 @@
+*{
+    padding: 0 auto;
+    padding:0 10px;
+    font-family: "Inter";
+
+}
+.nav .menu{
+   display: none;
+  
+}
+.nav{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px;
+}
+.nav a, .btn1 a, .star a, .get a{
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 18px;
+}
+.nav ul{
+ box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px;
+padding: 15px 15px 15px 0px;
+gap: 25px;
+
+}
+.nav h1, .fit h1{
+    font-weight: 800;
+    font-size: 34px;
+    color: rgb(230, 83, 60);
+}
+.nav span{
+background-color: rgb(230, 83, 60);
+padding: 15px;
+border-radius: 39px;
+
+
+}
+.f{
+    font-weight: 800;
+font-family: "Allura";
+font-size: 85px;
+
+}
+.ni{
+    background:  rgba(59, 55, 55, 0.331);
+    height: 715px;
+left: 0;
+top: 0;
+}
+.body{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heal h1{
+    font-size: 70px;
+}
+.btn1{
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 39px; 
+padding: 15px 25px;
+background-color: rgb(230, 83, 60);
+}
+.btn2{
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px; 
+    padding: 15px 25px;
+}
+.btn1:hover{
+    cursor: pointer;
+}
+.btn2:hover{
+    cursor: pointer;
+}
+.box1{
+    box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+width: 170px;
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+position: absolute;
+width: 206px;
+height: 96px;
+left: 684px;
+top: 556px;
+}
+.box2{
+position: absolute;
+width: 193px;
+height: 98px;
+left: 1000px;
+top: 260px;
+box-sizing: border-box;
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(255, 255, 255, 0.1);
+}
+.nil{
+    text-align: center;
+}
+.card{
+    text-align: center;
+    
+    
+}
+.cardSec{
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+}
+.run{
+    display: flex;
+    background-color: rgba(58, 54, 54, 0.331);
+
+}
+.run .easy{
+    padding: 20px;
+    text-align: left;
+    align-items: center;
+
+}
+.easy h1{
+    font-size: 45px;
+    font-weight: 800;
+}
+.img1{
+    height: 280px;
+    padding: 25px;
+    border-radius: 45px;
+}
+.trainy{
+ padding:10px 0px;
+ 
+}
+.train{
+    background-size: cover;
+    width: 330px;
+    height: 200px;
+    position: relative; 
+}
+.exer{
+   display: flex;
+   flex-wrap: wrap;
+   width: 1100px;
+}
+
+
+.bmi, .team{
+    align-items: center;
+    text-align: center;
+    
+}
+.chart{
+    margin: 60px 0px;
+    padding: 40px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ 
+    
+}
+ td, th{
+    border: .5px solid grey;
+    padding: 15px;
+    text-align: center;
+}
+.calculator{
+width: 700px;
+}
+input{
+
+    padding: 10px;
+    margin: 10px;
+    width: 260px;
+    outline: none;
+
+}
+select{
+    padding: 5px;
+    margin: 2px;
+    width: 280px;
+    
+
+}
+.trainer{
+    border-radius: 25px;
+    background-size: cover;
+    width: 300px;
+    height: 290px;
+    position: relative;
+    margin: 20px 10px;
+  }
+
+  .trainer span h4{
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 16px;
+   
+  }
+  .trainer span h6{
+    color: grey;
+    position: absolute;
+    bottom: -25px;
+    left: 10px;
+    font-size: 16px;
+  }
+  .trainee{
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.1);  
+  margin-bottom: 25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background: rgba(255, 255, 255, 0.1);
+    padding: 40px 0;
+    margin: 0;
+    align-items: center;
+}  
+.star a , .get a {
+    color: grey;
+    padding: 15px;
+}
+.foot{
+    display: flex;
+}
+.right{
+    text-align: center;
+}
+.star, .get{
+    display: grid;
+    padding:5px 45px;
+
+}
+
+@media screen and (max-width:576px) {
+    .nav ul ,a{
+        display: none;
+    
+    }
+    .nav .menu{
+        width: 25px;
+        display: block;
+        
+    }
+    .body{
+        display: grid;
+        height: 100px;
+        
+    }
+    .trainee{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        padding: 5px;
+        width: 110%;
+        margin-left: -18px;
+        margin-bottom: 20px;
+    }
+    .chart{
+        display: grid;
+        padding: 0 15px;
+    }
+    .calculator{
+        width: 250px;
+    }
+    .calculator .btn1{
+        text-align: center;
+    }
+    .imgi{
+        height: 50%;
+    }
+    .cardSec{
+        display: grid;
+    }
+    .run{
+        display: grid;
+    }
+    .img1{width: 100%;
+    padding: 0;
+    }
+    .exer{
+        display: grid;
+        gap: 15px;
+        padding: 0;
+        margin: 0;
+    
+    }
+.exer .train{
+    margin:0 5px;
+    padding: 0px;
+   
+  
+}
+.trainer{
+    padding: 0;
+    
+}
+.foot{
+    display: grid;
+
+}
+.star a , .get a , .get h3, .star h3{
+    display: grid;
+    text-align: left;
+    padding-left: 0;
+}
+}
