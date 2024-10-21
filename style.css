@@ -13,6 +13,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 4px;
+  background: rgba(59, 55, 55, 0.331);
 }
 .nav a,
 .btn1 a,
