@@ -82,16 +82,16 @@ background-color: rgb(230, 83, 60);
 }
 .box1{
     box-sizing: border-box;
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
-width: 170px;
-backdrop-filter: blur(20px);
-background: rgba(48, 48, 48, 0.54);
-position: absolute;
-width: 206px;
-height: 96px;
-left: 684px;
-top: 556px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    width: 170px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+    width: 206px;
+    height: 96px;
+    left: 684px;
+    top: 556px;
 }
 .box2{
 position: absolute;
@@ -225,16 +225,6 @@ select{
   margin-bottom: 25px;
   }
 
-
-
-
-
-
-
-
-
-
-
 footer{
     background: rgba(255, 255, 255, 0.1);
     padding: 40px 0;
@@ -267,6 +257,35 @@ footer{
         display: block;
         
     }
+    .nil{
+        margin-top: 700px;
+    }
+    .box1{
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        width: 170px;
+        backdrop-filter: blur(20px);
+        background: rgba(48, 48, 48, 0.54);
+        position: absolute;
+        width: 206px;
+        height: 96px;
+        left: 4px;
+        top: 1000px;
+    }
+    .box2{
+        position: absolute;
+        width: 193px;
+        height: 98px;
+        left: 200px;
+        top: 800px;
+        box-sizing: border-box;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-radius: 12px;
+        backdrop-filter: blur(20px);
+        background: rgba(255, 255, 255, 0.1);
+    }
+
     .body{
         display: grid;
         height: 100px;
@@ -328,4 +347,10 @@ footer{
     text-align: left;
     padding-left: 0;
 }
+
+
+
+
+
+
 }
