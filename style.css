@@ -18,7 +18,8 @@
 .nav a,
 .btn1 a,
 .star a,
-.get a {
+.get a,
+.heal .btn2 a {
   text-decoration: none;
   color: aliceblue;
   font-size: 18px;
@@ -319,7 +320,7 @@ footer {
   padding: 5px 45px;
 }
 
-@media screen and (max-width: 576px) {
+@media screen and (max-width: 575px) {
   .nav ul,
   a {
     display: none;
